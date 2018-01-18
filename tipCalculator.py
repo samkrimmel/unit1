@@ -5,5 +5,5 @@
 p = float(input('Price of Meal (in dollars): '))
 t = int(input('Percent to tip: '))
 
-print('You should tip', (t*p)/100, 'dollars')
+print('You should tip $', round(((t*p)/100), 2))
 
