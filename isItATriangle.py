@@ -6,7 +6,8 @@ a = int(input('Enter side A: '))
 b = int(input('Enter side B: '))
 c = int(input('Enter side C: '))
 
-s = min(a,b,c)
+s = max(a,b,c)
 
-print(A + B + C == 180)
+
+
 
