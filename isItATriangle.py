@@ -8,7 +8,6 @@ c = int(input('Enter side C: '))
 
 l = max(a,b,c)
 s = min(a,b,c)
+m = ((a+b+c)-l)-s
 
-print(l-s 
-
-
+print(l<s+m)
