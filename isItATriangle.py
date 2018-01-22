@@ -6,8 +6,9 @@ a = int(input('Enter side A: '))
 b = int(input('Enter side B: '))
 c = int(input('Enter side C: '))
 
-s = max(a,b,c)
+l = max(a,b,c)
+s = min(a,b,c)
 
-
+print(l-s 
 
 
